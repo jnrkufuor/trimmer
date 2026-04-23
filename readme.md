@@ -42,8 +42,9 @@ A free Twelve Labs account and API key Sign up here
 
 ### 🔨 **Current Development**
  1. Search function still being optimized
+    
  2. Additional features coming soon
 
 
-#### 🤝 **Contributing**
+### 🤝 **Contributing**
 Contributions, issues, and feature requests are welcome!
