@@ -42,7 +42,7 @@ index_id = None
 
 def get_or_create_index():
     """Get existing index or create new one"""
-    global index_id  # ⭐ CRITICAL - must be here!
+    global index_id  
     
     # List existing indexes
     response = requests.get(f"{BASE_URL}/indexes", headers=HEADERS)
@@ -52,7 +52,7 @@ def get_or_create_index():
         for index in indexes:
             name = index.get('index_name') or index.get('name')
             if name == INDEX_NAME:
-                index_id = index.get('_id') or index.get('id')  # ⭐ Setting global
+                index_id = index.get('_id') or index.get('id') 
                 print(f"✓ Using existing index: {index_id}")
                 return index_id
     
@@ -72,7 +72,7 @@ def get_or_create_index():
     
     if response.status_code in [200, 201]:
         result = response.json()
-        index_id = result.get('_id') or result.get('id')  # ⭐ Setting global
+        index_id = result.get('_id') or result.get('id') 
         print("Global Index",index_id)
         print(f"✓ Created new index: {index_id}")
         return index_id
