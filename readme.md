@@ -1,17 +1,21 @@
 ## **Video Trimmer**
 A Flask application built on the Twelve Labs API that allows users to search for specific content within videos using natural language prompts and automatically trim videos to include only the relevant sections.
 
+
 ### 🚧 **Status**
 This project is currently in active development.
+
 
 ### ✨ **Features**
 Natural language video search powered by Twelve Labs API
 Automatic video trimming based on search results
 Flask-based web interface
 
+
 ### 📋 **Prerequisites**
 Python 3.x
 A free Twelve Labs account and API key Sign up here
+
 
 ### 🚀 Setup & Installation
 1. Clone the repository
@@ -40,6 +44,7 @@ A free Twelve Labs account and API key Sign up here
   python app.py
   ```
 
+ 
 ### 🔨 **Current Development**
  1. Search function still being optimized
     
