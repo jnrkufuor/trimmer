@@ -1,4 +1,4 @@
-## **Video Trimmer**
+## ** AI Video Trimmer**
 A Flask application built on the Twelve Labs API that allows users to search for specific content within videos using natural language prompts and automatically trim videos to include only the relevant sections.
 
 
